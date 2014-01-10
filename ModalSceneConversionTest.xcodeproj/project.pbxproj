@@ -21,6 +21,7 @@
 		B35CD98F187F9CB7000EA6F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35CD971187F9CB6000EA6F4 /* UIKit.framework */; };
 		B35CD997187F9CB7000EA6F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B35CD995187F9CB7000EA6F4 /* InfoPlist.strings */; };
 		B35CD999187F9CB7000EA6F4 /* ModalSceneConversionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B35CD998187F9CB7000EA6F4 /* ModalSceneConversionTestTests.m */; };
+		B35CD9A4187FA0DA000EA6F4 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B35CD9A3187FA0DA000EA6F4 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B35CD994187F9CB7000EA6F4 /* ModalSceneConversionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalSceneConversionTestTests-Info.plist"; sourceTree = "<group>"; };
 		B35CD996187F9CB7000EA6F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B35CD998187F9CB7000EA6F4 /* ModalSceneConversionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalSceneConversionTestTests.m; sourceTree = "<group>"; };
+		B35CD9A2187FA0DA000EA6F4 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		B35CD9A3187FA0DA000EA6F4 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				B35CD983187F9CB6000EA6F4 /* ViewController.m */,
 				B35CD985187F9CB6000EA6F4 /* Images.xcassets */,
 				B35CD974187F9CB6000EA6F4 /* Supporting Files */,
+				B35CD9A2187FA0DA000EA6F4 /* ModalViewController.h */,
+				B35CD9A3187FA0DA000EA6F4 /* ModalViewController.m */,
 			);
 			path = ModalSceneConversionTest;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35CD9A4187FA0DA000EA6F4 /* ModalViewController.m in Sources */,
 				B35CD984187F9CB6000EA6F4 /* ViewController.m in Sources */,
 				B35CD97E187F9CB6000EA6F4 /* AppDelegate.m in Sources */,
 				B35CD97A187F9CB6000EA6F4 /* main.m in Sources */,
