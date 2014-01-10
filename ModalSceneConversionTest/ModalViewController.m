@@ -9,7 +9,7 @@
 #import "ModalViewController.h"
 #import "ViewController.h"
 
-@interface ModalViewController ()
+@interface ModalViewController () <UITextFieldDelegate>
 
 @end
 
@@ -62,6 +62,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self.modalInput resignFirstResponder];
+    
+    return YES;
 }
 
 @end
